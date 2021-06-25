@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Journey</string>
+    <string name="app_name">旅在西北</string>
 
     <string-array name="indicator_title">
         <item>饮食</item>

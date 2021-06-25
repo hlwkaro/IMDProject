@@ -59,7 +59,7 @@ public class FoodFragment extends BaseFragment{
 
             @Override
             protected int getDataSize() {
-                return mSwiperData.size();
+                return 5;
             }
 
             @Override

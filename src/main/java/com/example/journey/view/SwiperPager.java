@@ -125,7 +125,7 @@ public class SwiperPager extends LinearLayout {
 
     private void setUpIndicatorPoint() {
         if (mInnerAdapter != null&&mTitleSetListener!=null) {
-            int count = 5;
+            int count = mInnerAdapter.getDataSize();
             mLinearLayout.removeAllViews();
             for (int i = 0; i < count; i++) {
                 View pointer = new View(getContext());
