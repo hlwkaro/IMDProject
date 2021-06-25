@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Journey</string>
+
+    <string-array name="indicator_title">
+        <item>饮食</item>
+        <item>景观</item>
+        <item>艺术</item>
+    </string-array>
+</resources>

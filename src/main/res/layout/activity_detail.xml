@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/detail_bg_color">
+
+    <ImageView
+        android:id="@+id/food_detail_pic"
+        android:layout_width="match_parent"
+        android:layout_height="303dp"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/food_detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是我的名字"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/food_detail_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="这是内容介绍"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+</LinearLayout>
