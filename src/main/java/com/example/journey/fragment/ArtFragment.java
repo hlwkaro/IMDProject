@@ -11,7 +11,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.example.journey.DetailActivity;
 import com.example.journey.R;
 import com.example.journey.adapter.ArtRecyclerViewAdapter;
